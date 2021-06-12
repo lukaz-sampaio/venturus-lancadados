@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">LancaDados</string>
+    <string name="name_player">Player Name</string>
+    <string name="register">Register</string>
+    <string name="welcome">Is today your lucky day %s ?</string>
+    <string name="play_dices">Play Dices</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_throw_dices_navigation">throwDicesNavigation</string>
+    <string name="title_register_user_fragment">registerUserFragment</string>
+</resources>
