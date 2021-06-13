@@ -25,7 +25,7 @@ class ThrowDicesFragment : Fragment() {
 
         val player = "Player Name"
         welcome?.text = arguments?.getString("player")
-//        val message = getString(R.string.welcome, player)
+        val message = getString(R.string.welcome, player)
 
 
         shareButton?.setOnClickListener {
@@ -33,7 +33,9 @@ class ThrowDicesFragment : Fragment() {
             intent.putExtra(Intent.EXTRA_TEXT, "You are a lucky!")
 //            intent.setPackage("com.whatsapp")
             intent.type = "text/plain"
+            startActivity(intent)
 
+            // abrir compartilhar direto no aplicativo se estiver instalado
 //            activity?.packageManager?.run {
 //                if (intent.resolveActivity(this) != null) {
 //                    startActivity(intent)
